@@ -1,0 +1,89 @@
+.body-left{
+    word-wrap: break-word;
+    font-family: Barlow; 
+}
+
+.body-left .left-name{
+    font-weight: 800; text-transform: uppercase; line-height: 64px;
+    font-size: 4.5vw;
+}
+
+.body-left .left-title{
+    margin: 15px 0 0 0;
+    color: #222222; font-size: 2vw; font-weight: 800; text-transform: uppercase; line-height: 30px;
+}
+
+.body-left .left-content{
+    margin: 15px 0 0 0;
+    color: #222222; font-size: 1.5vw; font-weight: 400; line-height: 21px; 
+}
+
+.body-left .left-button{
+    margin: 10px 0 0 0;
+    padding-left: 30px; padding-right: 30px; padding-top: 12px; padding-bottom: 12px; background: #FFB202; justify-content: center; align-items: center; gap: 10px; display: inline-flex
+}
+
+.body-left .left-button div{
+    text-align: center; color: white; font-size: 1.5vw; font-weight: 700;
+}
+
+.body-right{
+    font-family: Barlow; 
+    word-wrap: break-word;
+}
+
+.body-right table, .body-right th, .body-right td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1vw;
+}
+
+.body-right table{
+    background-color: #F7F7F7; width: 100%;
+}
+
+.body-right .right-title{
+    color: #222222; font-size: 20px; font-weight: 800; text-transform: uppercase; line-height: 30px;
+}
+
+.body-right .right-content{
+    margin: 15px 0 15px 0;
+    color: #222222; font-size: 1.5vw; font-weight: 400; line-height: 21px; 
+}
+
+.body-bottom {
+    width: 100%; height: 290px;  background-image: url('../../img/chat-content-banner.png'); background-repeat: no-repeat; background-size: cover;
+}
+
+.body-bottom .bottom-title{
+    margin:4vw 0 2vw 0;
+    align-self: stretch; height: 67px; text-align: center; font-size: 5vw;
+    font-family: Barlow; font-weight: 800; text-transform: uppercase; line-height: 64px; word-wrap: break-word
+}
+
+.body-bottom .bottom-content{
+    align-self: stretch; text-align: center; color: #222222; font-size: 2vw; font-family: Barlow; font-weight: 400; line-height: 27px; word-wrap: break-word
+}
+
+.body-bottom .bottom-btn{
+    justify-content: center; align-items: center; gap: 10px; display: inline-flex;
+    margin: 1.5vw 0 0 0;
+}
+
+.body-bottom .bottom-btn div{
+    text-align: center; color: white; font-size: 14px; font-family: Barlow; font-weight: 700; word-wrap: break-word;
+    width: 150px;
+    background: #222222;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    width: 100%; height: 80px;
+    font-weight: normal; font-size: 10px;
+}
+
+.footer .line{
+    width: 100%; height: 1px; background: #D9D9D9;
+}
