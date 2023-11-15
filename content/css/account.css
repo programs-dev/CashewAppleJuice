@@ -89,35 +89,5 @@
 }
 
 @media screen and (max-width: 765px) {
-    .body-left .left-name{
-        font-size: 7vw;
-    }
     
-    .body-left .left-title{
-        font-size: 4vw;
-    }
-    
-    .body-left .left-content{
-        font-size: 3vw; 
-    }
-
-    .body-right table, .body-right th, .body-right td{
-        font-size: 3vw;
-    }
-    
-    .body-right .right-title{
-        font-size: 4vw; 
-    }
-    
-    .body-right .right-content{
-        font-size: 3vw; 
-    }
-    .body-bottom .bottom-content{
-        font-size: 2.5vw;
-    }
-
-    .footer {
-        height: 60px;
-        font-size: 2vw;
-    }
 }
