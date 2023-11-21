@@ -8,13 +8,12 @@
         <link href="content/css/card.css" rel="stylesheet">
     </head>
     <body>
-
         <script src="content/js/popper.min.js"></script>
         <script src="content/js/bootstrap.min.js"></script>
         <script src="content/js/bootstrap.bundle.min.js"></script>
         <script src="content/js/jquery.min.js"></script>
 
-        <div style="width: 100%; height: 100%; position: relative; background: white">
+        <div style="width: 100%; height: 100%; position: inherit; background: white;">
             <div class="menu">
                 <div class="container-fluid" style="background-color: #f8f9fa;">
                     <nav class="navbar navbar-light bg-light" style="background-color: #f8f9fa;">
@@ -51,108 +50,124 @@
                     </nav>
                 </div>
             </div>
-
-            <div class="body" style="margin: 2vw 0 20px 0;">
-                <div class="container-xxl">
-                    <div class="col text-center fs-1 fw-bold">
-                        <div style="height: 36px; left: 625px; top: 160px; text-align: center">
-                            <span style="color: #222222; font-size: 36px; font-family: Barlow; font-weight: 800; text-transform: uppercase; line-height: 36px; word-wrap: break-word">my </span>
-                            <span style="color: #FFB202; font-size: 36px; font-family: Barlow; font-weight: 800; text-transform: uppercase; line-height: 36px; word-wrap: break-word">cart</span>
+            
+            <div class="body" style="">
+                <div class="container">
+                    <div class="col text-center fs-1 fw-bold body-title">
+                        <div>
+                            <span style="color: #222222;">my </span>
+                            <span style="color: #FFB202;">cart</span>
                         </div>
                     </div>
-                    <div class="form-group" style="margin: 2vw 0 20px 0;">
-                        <div class="row">
+                    <div class="form-group body-table-card" style="margin: 2vw 0 20px 0;">
+                        <div class="row body-table-card-tilte">
                             <div class="col-md-6">
-                                <div style="width: 260px; color: #909090; font-size: 14px; font-family: Barlow; font-weight: 600; word-wrap: break-word">Product</div>
+                                <div>Product</div>
                             </div>
                             <div class="col-md-2">
-                                <div style="width: 140px; color: #909090; font-size: 14px; font-family: Barlow; font-weight: 600; word-wrap: break-word">Price</div>
+                                <div>Price</div>
                             </div>
                             <div class="col-md-2">
-                                <div style="width: 140px; color: #909090; font-size: 14px; font-family: Barlow; font-weight: 600; word-wrap: break-word">Quantity</div>
+                                <div>Quantity</div>
                             </div>
                             <div class="col-md-2">
-                                <div style="width: 140px; color: #909090; font-size: 14px; font-family: Barlow; font-weight: 600; word-wrap: break-word">Total</div>    
+                                <div>Total</div>    
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row body-card-list" >
                             <div class="col-md-6">
-                                <div style="justify-content: flex-start; align-items: center; gap: 20px; display: flex">
-                                    <div style="width: 80px; height: 80px; position: relative">
-                                        <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #FFECC2"></div>
-                                        <img style="width: 18px; height: 51px; left: 31px; top: 15px; position: absolute" src="https://s3-alpha-sig.figma.com/img/9e3b/16b7/0b354a0a0146e5000d55d0e7f631e7c5?Expires=1698019200&Signature=gEZwevyJOZ3a6Qnao4VkWoOkVhbjuNt5pma2ALXI02KET4zEYEfOme7w2KuHwSg356EEkAJyADJ6dgi-Bjys7VnQijMtnT0vKO9y~S-g0PnH12xkl9jjjpXFWOShwIRNausddLzn1vjyJY3fJHRprPIfqN6K2BjUrSvsjaINKV8t-Q-8jfiN1T5ITsWrCjtQJ2xX5~5QgaaovQCDK0E4SMlcwE-zxy1yGmTIwNV3HNqyXm~2ey~gXcQotw-0HhMQsUAQhU8P7slcFZ6mfyKf2EtEXnbWtISW03x0D9vw5br0mLUJARoZZN2WtbWb7XXJgCAYr7n0pAebRiU~WeDD7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
+                                <div class="body-card-info">
+                                    <div class="card-img">
+                                        <div class="card-img-bg"></div>
+                                        <img src="img/chat-bottle-1.png" />
                                     </div>
-                                    <div style="width: 160px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 5px; display: inline-flex">
-                                        <div style="color: #303030; font-size: 16px; font-family: Barlow; font-weight: 700; word-wrap: break-word">Cashew juice drink</div>
-                                        <div style="justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Capacity:</div>
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">330ml</div>
+                                    <div class="card-detail">
+                                        <div class="card-detail-name" style="">Cashew juice drink</div>
+                                        <div class="card-detail-capacity" style="">
+                                            <div>Capacity:</div>
+                                            <div>330ml</div>
                                         </div>
-                                        <div style="justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Color:</div>
-                                            <div style="width: 35px; color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">yellow</div>
+                                        <div class="card-detail-color" style="">
+                                            <div style="">Color:</div>
+                                            <div style="">yellow</div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="col-md-4">
-                                    <div style="width: 80px; height: 80px; position: relative">
-                                        <div style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #FAE5D2"></div>
-                                        <img style="width: 18px; height: 52px; left: 31px; top: 14px; position: absolute" src="https://s3-alpha-sig.figma.com/img/9ac0/cb73/135005cecaf1a69e6563bd5fbd88ef11?Expires=1698019200&Signature=cs0nxvYNntmyIhrBN2IlgekrYLbbPoVHl9udriQKYW2jknw-1TACKwI6A~biutRtCJwY7Ep~dCZHeDIqP9QEQzhmPopem8moA9wVPF1Id3TvZLrCl-9xtjXBdHODkHCrRSs4zzaPbDUcTa2vHSU2xG-uFlBuaIlZmumoBCyrVLcCnAcqT5MNkfwM1TJxB7bmzuFVJ4Us2hZS-FZjx-oQpdRXtVx51pe-mGSD92MtHEndJEUN~qNVVL5LH7OCigiaT19geA4nODmSFmQ8ndYip4AiobVVzY1HTpjKqlxxsTbemAKEMOgf6y5MMtwVMqB0ICWOD6cLllkJv1MNy2tbHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div style="color: #303030; font-size: 16px; font-family: Barlow; font-weight: 700; word-wrap: break-word">Cashew juice drink</div>
-                                    <div style="width: 160px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 5px; display: inline-flex">
-                                        <div style="justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Capacity:</div>
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">330ml</div>
-                                        </div>
-                                        <div style="justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Color:</div>
-                                            <div style="color: #909090; font-size: 12px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Light yellow</div>
-                                        </div>
-                                    </div>
-                                </div> -->
                             </div>
-                            <div class="col-md-2">
-                                <div style="width: 140px; color: #303030; font-size: 16px; font-family: Barlow; font-weight: 600; word-wrap: break-word">$ 99.99</div>
+                            <div class="col-md-2 card-info-price">
+                                <div style="">$ 99.99</div>
                             </div>
-                            <div class="col-md-2" style="display: flex;">
-                                <div style="width: 30px; height: 30px; padding-left: 2px; padding-right: 2px; padding-top: 1px; padding-bottom: 1px; background: #F4F4F4; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                                    <div style="text-align: center; color: #303030; font-size: 16px; font-family: Barlow; font-weight: 600; word-wrap: break-word">-</div>
+                            <div class="col-md-2 card-info-quantity">
+                                <div class="card-info-quantity-btn" style="">
+                                    <div  style="">-</div>
                                 </div>
-                                <div style="width: 22px; text-align: center; color: #303030; font-size: 16px; font-family: Barlow; font-weight: 600; word-wrap: break-word">1</div>
-                                <div style="width: 30px; height: 30px; padding-left: 2px; padding-right: 2px; padding-top: 1px; padding-bottom: 1px; background: #F4F4F4; flex-direction: column; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                                    <div style="text-align: center; color: #303030; font-size: 16px; font-family: Barlow; font-weight: 600; word-wrap: break-word">+</div>
+                                <div class="card-info-quantity-number" style="">1</div>
+                                <div class="card-info-quantity-btn"style="">
+                                    <div style="">+</div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
-                                <div style="width: 140px; color: #303030; font-size: 16px; font-family: Barlow; font-weight: 600; word-wrap: break-word">$ 99.99</div>
-                            </div>
-                        </div>
-                    </div>
+                            <div class="col-md-2 card-info-total">
+                                <div style="width: 50%">$ 99.99</div>
 
-                    <div style="left: 221px; top: 704px; position: absolute; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="width: 40px; height: 40px; position: relative">
-                            <div style="width: 26.67px; height: 21.33px; left: 18.12px; top: 3.03px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; border: 2px #292D32 solid"></div>
-                            <div style="width: 8px; height: 8px; left: 20.24px; top: 14.11px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; border: 2px #292D32 solid"></div>
-                            <div style="width: 0.01px; height: 0px; left: 20.23px; top: 25.42px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; border: 3px #292D32 solid"></div>
-                            <div style="width: 1.33px; height: 1.33px; left: 19.77px; top: 13.64px; position: absolute; transform: rotate(45deg); transform-origin: 0 0; border: 3px #292D32 solid"></div>
-                            <div style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0"></div>
+                                <div style="width: 50%; text-align: right;">...</div>
+                            </div>
                         </div>
-                        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
-                            <div style="width: 296px; color: #222222; font-size: 20px; font-family: Barlow; font-weight: 800; text-transform: uppercase; line-height: 30px; word-wrap: break-word">Discount / promo code</div>
-                            <div style="justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
-                                <div style="color: #222222; font-size: 14px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Don’t have any yet?</div>
-                                <div style="color: #FFB202; font-size: 14px; font-family: Barlow; font-style: italic; font-weight: 400; text-decoration: underline; word-wrap: break-word">Check our discount programs</div>
+                        <div class="row" style="margin:10vw 0 6vw 0;">
+                            <div class="col-md-6">
+                                <div class="col-md-12">
+                                    <div style="justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                                        <img src="img/chat-ticket-discount.svg" alt="" style="width: 40px; height: 40px;">
+                                        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 6px; display: inline-flex">
+                                            <div style="width: 296px; color: #222222; font-size: 20px; font-family: Barlow; font-weight: 800; text-transform: uppercase; line-height: 30px; word-wrap: break-word">Discount / promo code</div>
+                                            <div style="justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+                                                <div style="color: #222222; font-size: 14px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Don’t have any yet?</div>
+                                                <div style="color: #FFB202; font-size: 14px; font-family: Barlow; font-style: italic; font-weight: 400; text-decoration: underline; word-wrap: break-word">Check our discount programs</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" style="display: flex;">
+                                    <div class="col-md-6">
+                                        <input type="input" class="form-control" style="background: #F4F4F4;  height: 35px" placeholder="Enter Your Coupon Code">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button" class="btn btn-outline-secondary" style="background: black; color: white; width: 96px; height: 35px">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" style="text-align: right;">
+                                <div class="" style="max-width: 200px; display: inline-table;">
+                                    <div class="row">
+                                        <div class="col-md-6" style="text-align: left; margin-top: 10px; padding-right:0; font-weight: bold;">Subtotal</div>
+                                        <div class="col-md-6" style="text-align: right; margin-top: 10px; padding-right:0;">$ 399.96</div>
+                                        <div class="col-md-6" style="text-align: left; margin-top: 10px; padding-right:0; font-weight: bold">Shipping</div>
+                                        <div class="col-md-6" style="text-align: right; margin-top: 10px; padding-right:0;"><a href="#">Add Info</a></div>
+                                        <div class="col-md-12" style="padding-right:0;">
+                                            <div style="height: 1px; background: #D9D9D9; margin-top: 10px; padding-right:0;"></div>
+                                        </div>
+                                        <div class="col-md-6" style="text-align: left; margin-top: 10px; padding-right:0; font-weight: bold">Shipping</div>
+                                        <div class="col-md-6" style="text-align: right; margin-top: 10px;padding-right:0;">$ 399.96</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-            
+            <div class="footer container-fluid">
+                <div class="form-group">
+                    <div class="footer-line"></div><br>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <label>Privacy Policy | Privacy Collection Notice | UGC Policy | Terms of Use | Contact Us</label>
+                        </div>
+                        <div class="col-md-6">
+                            <label>© 2023 Chat. Please drink/enjoy responsibly.</label>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </body>
 </html>
